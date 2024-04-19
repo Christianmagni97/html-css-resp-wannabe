@@ -127,3 +127,17 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+ @media screen and (max-width: 768px) {
+    .row{
+        max-width: 768px;
+    }
+    .container> h2{
+        display: flex;
+        justify-content: center;
+        max-width: 768px;   
+    }
+   
+
+    
+ 
+}
