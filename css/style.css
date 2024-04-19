@@ -136,8 +136,24 @@ img {
         justify-content: center;
         max-width: 768px;   
     }
+}
+@media screen and (max-width: 480px) {
+    .row{
+        max-width: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .container> h2{
+        display: flex;
+        justify-content: center;
+        max-width: 480px;   
+    }
+    .why-us{
+        background-color: #222222;
+    }
    
-
-    
- 
+  
 }
